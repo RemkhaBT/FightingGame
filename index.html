@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="./styles/style.css">
+
+        <title>
+            Fighting Game
+        </title>
+    </head>
+
+    <body>
+
+        <!-- Main container -->
+        <div id="mainBox">
+
+            <!-- Upper container -->
+            <div id="upperBox">
+
+                <!-- Player health -->
+                <div id="player1HealthBar">
+                    <div class="entityHealth" id="player1Health"></div>
+                    <div class="healthCover"></div>
+                </div>
+
+                <!-- Timer -->
+                <div id="timer">
+                    10
+                </div>
+
+                <!-- Enemy health -->
+                <div id="player2HealthBar">
+                    <div class="entityHealth" id="player2Health"></div>
+                    <div class="healthCover"></div>
+                </div>
+            </div>
+
+            <!-- Result info -->
+            <div id="result">
+                Result
+            </div>
+
+            <!-- Main canvas stage -->
+            <canvas id="canvas"></canvas>
+
+        </div>
+        <script src="./scripts/utils.js"></script>
+        <script src="./scripts/spritePresets.js"></script>
+        <script src="./settings/controls.js"></script>
+        <script src="./scripts/classes.js"></script>
+        <script src="./scripts/index.js"></script>
+    </body>
+
+</html>
